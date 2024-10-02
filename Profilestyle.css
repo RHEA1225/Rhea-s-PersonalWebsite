@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Apply a background color and text color to the body */
+body { 
+    background-image: url('image1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    color: rgb(6, 6, 6);
+    font-family: Arial;
+    padding: 10px 0;
+}
+
+/* Style the header */
+header {
+    
+    background-color: none;
+    color: rgb(239, 119, 173);
+    text-align: center;
+    font-style: italic;
+    padding: 10px 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    background-color: none;
+    list-style-type: black;
+    text-align: center;
+    text-size-adjust: 20px;
+    padding: 10px 0;
+}
+
+nav li {
+    display:inline;
+    margin: 0 10px;
+    text-decoration-line: underline;
+}
+
+nav a {
+    text-decoration: burlywood;
+    color: rgb(234, 73, 205);
+}
+
+/* Style the main content sections */
+main {
+    margin: 20px;
+}
+
+section {
+    background-color:none;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: none;
+}
+
+/* Style the footer */
+footer {
+    background-color: none;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+.h1{
+text-align: center;
+}
